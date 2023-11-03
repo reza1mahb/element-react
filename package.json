@@ -8,7 +8,7 @@
   "typings": "typings/index.d.ts",
   "scripts": {
     "start": "cd site && node run.js",
-    "typescript-test": "tsc --lib es2015 --moduleResolution node --project typings/typing-tests",
+    "typescript-test": "tsc --lib es2015 --moduolution node --project typings/typing-tests",
     "test": "flow check && BABEL_ENV=development jest",
     "jest": "jest",
     "lint": "eslint src libs site --quiet",
